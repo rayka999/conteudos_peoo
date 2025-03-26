@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        td img {
+            width: 200px; /* Tamanho fixo para a largura da imagem */
+            height: 200px; /* Tamanho fixo para a altura da imagem */
+            object-fit: cover; /* A imagem vai preencher o espaço sem distorcer */
+        }
+        td:first-child {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            <strong>preço de frutas</strong>
+        </caption>
+        <thead>
+            <tr>
+                <th>frutas</th>
+                <th>preço</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>R$ 1,40</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>maçã</td>
+                <td>R$ 0,40</td>
+            </tr>
+            <tr>
+                <td>Laranja</td>
+                <td>R$ 0,50</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>R$ 0,50</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>exercício</h1>
+    <table>
+        <tr>
+            <td style="text-align: center;background-color: grey;" colspan="3">
+                <strong>Planeta Terra</strong>
+            </td>
+        </tr>
+        <tbody>
+            <tr>
+                <td rowspan="3"><img src="https://img.odcdn.com.br/wp-content/uploads/2022/12/Terra.jpg" alt=""></td>
+                <td><a href="https://www.todamateria.com.br/origem-da-terra/">História</a></td>
+                <td><a href="https://brasilescola.uol.com.br/geografia/tipos-climas.htm#:~:text=No%20mundo%2C%20existem%2011%20tipos,o%20clima%20polar%20ou%20%C3%A1rtico.">Clima</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.bbc.com/portuguese/articles/cxwpl918eyzo">Fatos Importantes</a></td>
+                <td><a href="https://brasilescola.uol.com.br/geografia/o-planeta-terra.htm">Indicadores</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.ebiografia.com/biografia_pessoas_muito_importantes_historia/">Pessoas ilústres</a></td>
+                <td><a href="https://brasilescola.uol.com.br/geografia/paises.htm">Países</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
