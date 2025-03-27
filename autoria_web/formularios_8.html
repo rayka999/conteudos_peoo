@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body>
+    <h1>teste de formulários</h1>
+    <form>
+        <div>
+            <label for="nome">Nome (text):</label>
+            <input type="text" name="nome" id="nome" maxlength="25">
+        </div>
+        <br>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+        <br>
+        <div>
+            <p>Comentários (textarea)</p>
+            <textarea name="sugestoes" rows="4" cols="36">digite algum comentário</textarea>
+        </div>
+        <div>
+            <p><strong>Áreas de interesse (checkbox):</strong></p>
+            <p>
+                Educação <input type="checkbox" name="areas" value="Educação">
+                Tecnologia <input type="checkbox" name="areas" value="Tecnologia">
+            </p>
+        </div>
+        <div>
+            <p>Como você encontrou nossa página (radio)?</p>
+            <p><input type="radio" name="howto" value="busca">Página de busca</p>
+            <p><input type="radio" name="howto" value="outro">Outro meio</p>
+        </div>
+        <div>
+            <label>Estado (select):
+                <select name="estado">
+                    <option selected="selecionado">RN</option>
+                    <option>AL</option>
+                    <option>BA</option>
+                    <option>PI</option>
+                </select>
+            </label>
+        </div>
+    </form>
+    <h1>Formulário para cadastro de funcionário</h1>
+    <form>
+        <label>Nome:</label>
+        <input type="text" id="nome">
+        <br>
+        <label >Matrícula:</label>
+        <input type="text"  id="matricula">
+        <br>
+        <label >CPF:</label>
+        <input type="text" id="cpf" maxlength="14">
+        <br>
+        <label>Cargo:</label>
+        <p><input type="radio" name="cargo" value="prof">Professor</p>
+        <p><input type="radio" name="cargo" value="tec.adm">Técnico administrativo</p>
+        <p><input type="radio" name="cargo" value="tec.lab">Técnico de laboratório</p>
+        <p><input type="radio" name="cargo" value="ped">Pedagogo</p>
+        <p><input type="radio" name="cargo" value="ast">Assistente de alunos</p>
+        <br>
+        <label >Endereço:</label>
+        <input type="text" id="endereco">
+        <br>
+        <label>Telefone:</label>
+        <input type="text" id="telefone">
+    </form>
+</body>
+</html>
