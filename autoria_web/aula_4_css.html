@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link e Lista</title>
+    <style>
+        a:link{color: #FF0000;}
+        a:visited{color: blueviolet;}
+        a:hover{color:#FF00FF; text-decoration: none;}
+        a:active{color: #0000FF;}
+        
+    </style>
+</head>
+<body>
+    <h1 style="font-family: cursive;">Alterando o style de links</h1>
+    <p>um link não visitado e sem text_decoration: <a style="text-decoration: none;" href="https://brasilescola.uol.com.br/"> aqui</a></p>
+    <p>um link já visitado em outra janela (target:_blank): <a href="https://brasilescola.uol.com.br/" target="_blank">você</a></p>
+    <p>mouse sobre link: <a href="https://brasilescola.uol.com.br/">pode</a></p>
+    <p>link clicado: <a href="https://brasilescola.uol.com.br/">ver</a></p>
+    <h1 style="font-family: 'Courier New', Courier, monospace;">Alterando o style de listas</h1>
+    <ul style="list-style-type: square;">
+        <li>um
+            <ul style="list-style-type: disc;">
+                <li>dois
+                    <ul style="list-style-type: none;">
+                        <li>três</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
